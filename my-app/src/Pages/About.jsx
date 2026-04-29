@@ -1,5 +1,6 @@
 import { Users, Award } from "lucide-react"
-
+import rahulimg from"../assets/rahulimg.jpg"
+import maheshimg from"../assets/maheshimg.jpg"
 function About() {
   return (
     <div className="bg-gradient-to-r from-cyan-50 via-blue-100 to-pink-100 min-h-screen">
@@ -34,7 +35,7 @@ function About() {
           {/* Founder */}
           <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:-translate-y-3 hover:shadow-2xl transition-all duration-300">
             <img
-              src="https://randomuser.me/api/portraits/men/32.jpg"
+              src={rahulimg}
               className="w-32 h-32 mx-auto rounded-full mb-4 object-cover"
             />
             <h3 className="text-xl font-bold">Rahul Rokade</h3>
@@ -47,7 +48,7 @@ function About() {
           {/* Co-Founder */}
           <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:-translate-y-3 hover:shadow-2xl transition-all duration-300">
             <img
-              src="https://randomuser.me/api/portraits/men/45.jpg"
+              src={maheshimg}
               className="w-32 h-32 mx-auto rounded-full mb-4 object-cover"
             />
             <h3 className="text-xl font-bold">Mahesh Patil</h3>
